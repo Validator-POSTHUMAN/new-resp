@@ -1,0 +1,43 @@
+[
+  {
+    "@type": "/osmosis.tokenfactory.v1beta1.MsgCreateDenom",
+    "sender": "cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr",
+    "subdenom": "RESP"
+  },
+  {
+    "@type": "/osmosis.tokenfactory.v1beta1.MsgSetDenomMetadata",
+    "sender": "cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr",
+    "metadata": {
+      "description": "POSTHUMAN Reputation token (RESP) on Cosmos Hub.",
+      "denom_units": [
+        {
+          "denom": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
+          "exponent": 0,
+          "aliases": []
+        },
+        {
+          "denom": "resp",
+          "exponent": 6,
+          "aliases": [
+            "RESP"
+          ]
+        }
+      ],
+      "base": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
+      "display": "resp",
+      "name": "POSTHUMAN Reputation",
+      "symbol": "RESP",
+      "uri": "https://raw.githubusercontent.com/Validator-POSTHUMAN/new-resp/main/assets/Reputation_subdao_512.png",
+      "uri_hash": "f334aeae6c8821c0e3e54edef65b6797f8ccce2e47e4ec2f459bef984a9a4911"
+    }
+  },
+  {
+    "@type": "/osmosis.tokenfactory.v1beta1.MsgMint",
+    "sender": "cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr",
+    "amount": {
+      "denom": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
+      "amount": "1000000000000"
+    },
+    "mintToAddress": "cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr"
+  }
+]

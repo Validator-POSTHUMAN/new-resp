@@ -11,6 +11,10 @@ Juno to the new RESP flow on Cosmos Hub.
   [snapshots/resp_final_snapshot_2026-06-28.csv](snapshots/resp_final_snapshot_2026-06-28.csv)
 - Reputation SubDAO logo:
   [assets/Reputation_subdao_512.png](assets/Reputation_subdao_512.png)
+- RESP TokenFactory proposal draft:
+  [proposals/RESP_TOKENFACTORY_PROPOSAL.md](proposals/RESP_TOKENFACTORY_PROPOSAL.md)
+- Raw Cosmos messages draft:
+  [proposals/resp_tokenfactory_messages.json](proposals/resp_tokenfactory_messages.json)
 
 ## Final Snapshot Format
 
@@ -40,6 +44,10 @@ the same address payload bytes.
   `cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr`
 - Planned RESP TokenFactory denom:
   `factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP`
+- Logo URI currently used in the proposal draft:
+  https://raw.githubusercontent.com/Validator-POSTHUMAN/new-resp/main/assets/Reputation_subdao_512.png
+- Logo SHA-256:
+  `f334aeae6c8821c0e3e54edef65b6797f8ccce2e47e4ec2f459bef984a9a4911`
 
 ## Old RESP References
 
