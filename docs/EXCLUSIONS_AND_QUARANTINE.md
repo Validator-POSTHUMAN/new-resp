@@ -68,3 +68,20 @@ Decision values:
 - `reroute`
 - `include`
 
+## Current Draft Rows
+
+The current draft review file is:
+
+- `adjustments/resp_excluded_quarantine_reroute_2026-06-28.csv`
+
+Current draft treatment:
+
+- old Reputation SubDAO treasury
+  `juno1uwmtcc8lxc7waqy9takvnsautlfx5qp688jykvvuk4fezd8jf6fs549ym2`
+  reroutes 964,604 RESP to the new Reputation SubDAO
+  `cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr`;
+- Olim-linked `juno1eltl6qu6y538vhux3mk3pjpn7redx8najm4u3e` holds
+  133 RESP and is marked excluded per operator request;
+- 89 contract/module-sized holder rows totaling 1,805 RESP are quarantined for
+  manual review instead of receiving direct mechanically converted Cosmos
+  addresses.

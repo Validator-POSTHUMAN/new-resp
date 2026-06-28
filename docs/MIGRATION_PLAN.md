@@ -24,12 +24,13 @@ The intended process mirrors the PHMN migration pattern, adapted to RESP:
   https://phmn-stats.posthuman.digital/d/h50b3TySk/posthuman-reputation-token-resp-stats
 - Old RESP distribution SubDAO treasury:
   https://daodao.zone/dao/juno1uwmtcc8lxc7waqy9takvnsautlfx5qp688jykvvuk4fezd8jf6fs549ym2/treasury
+- New RESP Reputation SubDAO:
+  https://daodao.zone/dao/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr
 
 ## Required Decisions
 
-- New RESP SubDAO address.
 - New RESP TokenFactory admin policy.
-- Final snapshot height and timestamp.
+- Final snapshot height and timestamp or dashboard extraction timestamp.
 - Whether any old RESP transfers after final snapshot publication are ignored.
 - Whether to mint exactly the eligible distribution amount or a larger capped
   supply with reserves held by the new RESP SubDAO.
@@ -48,14 +49,13 @@ The intended process mirrors the PHMN migration pattern, adapted to RESP:
 
 ## Initial Work Queue
 
-- [ ] Verify old RESP token contract/denom and total supply.
-- [ ] Export current RESP holder set from Juno and any known IBC locations.
-- [ ] Identify old SubDAO treasury RESP balances.
-- [ ] Collect confirmed attacker addresses from PHMN incident evidence and RESP
+- [ ] Verify old RESP token contract/denom.
+- [x] Export current RESP holder set from the public RESP Grafana datasource.
+- [x] Identify old Reputation SubDAO treasury RESP balance.
+- [x] Collect confirmed attacker addresses from PHMN incident evidence and RESP
       specific evidence.
-- [ ] Collect Olim and Olim-linked addresses to check against RESP balances.
-- [ ] Build candidate snapshot.
-- [ ] Build exclusion/quarantine draft.
+- [x] Collect Olim and Olim-linked addresses to check against RESP balances.
+- [x] Build candidate snapshot.
+- [x] Build exclusion/quarantine draft.
 - [ ] Build final distribution draft.
 - [ ] Review with operators before publishing final snapshot.
-

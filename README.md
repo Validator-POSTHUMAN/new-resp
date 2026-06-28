@@ -9,11 +9,12 @@ verified.
 
 ## Current Status
 
-Status: preparation.
+Status: draft snapshot published, final review pending.
 
-The final RESP snapshot has not been published yet. Do not treat any draft
-files in this repository as a final distribution list until a final snapshot
-CSV and SHA-256 checksum are published.
+The current RESP holder snapshot draft is published in
+`snapshots/resp_snapshot_2026-06-28.csv`. Do not treat it as the final
+distribution list until quarantine/exclusion rows are reviewed and a final
+snapshot CSV is explicitly published.
 
 Known public context:
 
@@ -27,9 +28,29 @@ Planned target:
 - Chain: Cosmos Hub
 - Token type: TokenFactory
 - Symbol: RESP
-- New RESP SubDAO: TBD
+- New RESP SubDAO:
+  https://daodao.zone/dao/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr
 - New TokenFactory denom: TBD, expected format
-  `factory/<new-resp-subdao-cosmos-address>/RESP`
+  `factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP`
+
+## Current Draft Snapshot
+
+- Snapshot CSV: `snapshots/resp_snapshot_2026-06-28.csv`
+- Draft distribution CSV: `snapshots/resp_distribution_draft_2026-06-28.csv`
+- Exclusion/quarantine/reroute rows:
+  `adjustments/resp_excluded_quarantine_reroute_2026-06-28.csv`
+- Summary JSON: `snapshots/resp_snapshot_summary_2026-06-28.json`
+- Review report: `reports/RESP_SNAPSHOT_DRAFT_2026-06-28.md`
+- Checksums: `checksums/SHA256SUMS`
+
+Draft totals:
+
+- Holder rows: 1,830
+- Total RESP: 1,000,000
+- Direct include: 1,739 rows / 33,458 RESP
+- Old Reputation SubDAO reroute: 1 row / 964,604 RESP
+- Olim/incident exclusion: 1 row / 133 RESP
+- Quarantine/manual review: 89 rows / 1,805 RESP
 
 ## Migration Principles
 
@@ -68,7 +89,5 @@ Planned target:
 
 ## Operator Notes
 
-The new SubDAO address and final TokenFactory denom are intentionally not filled
-in yet. They must be recorded only after the new RESP SubDAO is created and
-verified on-chain.
-
+The new RESP SubDAO address is recorded. The TokenFactory denom remains pending
+until the denom is created or confirmed on-chain.

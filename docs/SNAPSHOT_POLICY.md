@@ -56,6 +56,15 @@ Expected final publication files:
 - `adjustments/resp_quarantine_rows.csv`
 - `checksums/SHA256SUMS`
 
+Current draft publication files:
+
+- `snapshots/resp_snapshot_2026-06-28.csv`
+- `snapshots/resp_distribution_draft_2026-06-28.csv`
+- `snapshots/resp_snapshot_summary_2026-06-28.json`
+- `adjustments/resp_excluded_quarantine_reroute_2026-06-28.csv`
+- `reports/RESP_SNAPSHOT_DRAFT_2026-06-28.md`
+- `checksums/SHA256SUMS`
+
 ## Minimum Review Checks
 
 - Sum source rows and final distribution rows.
@@ -66,4 +75,3 @@ Expected final publication files:
 - Confirm no unsupported contract/module/pool row is sent to a dead converted
   Cosmos Hub address.
 - Confirm checksums match the published files.
-
