@@ -39,17 +39,17 @@ https://github.com/Validator-POSTHUMAN/new-resp
 
 Current logo URL:
 
-https://raw.githubusercontent.com/Validator-POSTHUMAN/new-resp/main/assets/Reputation_subdao_512.png
+https://raw.githubusercontent.com/Validator-POSTHUMAN/new-resp/main/assets/resp.png
 
 Logo SHA-256:
 
-f334aeae6c8821c0e3e54edef65b6797f8ccce2e47e4ec2f459bef984a9a4911
+8cd779b9112513b180839d62746d31e2207d4b7a697a34f357102dac56c9d7c3
 
 IPFS note: the proposal currently uses the GitHub raw logo URL because no
 verified IPFS CID has been pinned from this workspace. If the logo is pinned to
 IPFS before proposal submission, replace the metadata uri with the verified
 ipfs://... URI and keep the same uri_hash only if the pinned bytes match
-assets/Reputation_subdao_512.png.
+assets/resp.png.
 
 ## Mint Amount
 
