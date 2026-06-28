@@ -29,9 +29,8 @@ the same address payload bytes.
 - Holder rows: 1,830
 - Total RESP: 1,000,000
 - Direct Juno-to-Cosmos mapping: 33,458 RESP
-- Routed to the new Reputation SubDAO treasury: 964,737 RESP
-- Contract/module-sized Juno source rows with mechanical Cosmos analogs:
-  1,805 RESP
+- Routed to the new Reputation SubDAO treasury: 966,542 RESP
+- Smart-contract/module source rows routed to the new Reputation SubDAO treasury: 1,805 RESP
 
 ## New Reputation SubDAO
 
@@ -59,7 +58,14 @@ the same address payload bytes.
   SubDAO treasury.
 - RESP held by Olim-linked, related, or attacker/incident-linked addresses
   routes to the new Reputation SubDAO treasury.
+- RESP held by smart contracts or module-sized Juno source addresses routes to
+  the new Reputation SubDAO treasury, not to mechanically converted contract
+  addresses.
 
-In this snapshot, the old Reputation SubDAO row holds 964,604 RESP and the
-matched Olim-linked row holds 133 RESP. Both are routed to the new Reputation
-SubDAO treasury in the final snapshot.
+In this snapshot, these rows are routed to the new Reputation SubDAO treasury:
+
+- old Reputation SubDAO: 964,604 RESP;
+- matched Olim-linked address: 133 RESP;
+- smart-contract/module source rows: 1,805 RESP.
+
+Total routed to the new Reputation SubDAO treasury: 966,542 RESP.
