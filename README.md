@@ -15,6 +15,8 @@ Juno to the new RESP flow on Cosmos Hub.
   [proposals/RESP_TOKENFACTORY_PROPOSAL.md](proposals/RESP_TOKENFACTORY_PROPOSAL.md)
 - Raw Cosmos messages draft:
   [proposals/resp_tokenfactory_messages.json](proposals/resp_tokenfactory_messages.json)
+- DAO DAO bulk import JSON:
+  [proposals/resp_tokenfactory_daodao_bulk_import.json](proposals/resp_tokenfactory_daodao_bulk_import.json)
 
 ## Final Snapshot Format
 

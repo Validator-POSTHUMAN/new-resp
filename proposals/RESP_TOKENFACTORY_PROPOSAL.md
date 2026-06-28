@@ -92,8 +92,12 @@ proposal or batch after the denom exists and the mint transaction is verified.
 
 ## Raw Message Draft
 
-The raw Cosmos message draft is stored in:
+DAO DAO bulk import JSON:
+
+proposals/resp_tokenfactory_daodao_bulk_import.json
+
+This is the file to paste into DAO DAO Bulk Import Actions.
+
+Raw Cosmos message draft for review:
 
 proposals/resp_tokenfactory_messages.json
-
-Review this JSON in DAO DAO before broadcast.
